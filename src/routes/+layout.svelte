@@ -1,0 +1,25 @@
+<script>
+    import "../app.css";
+    import flogo from "$lib/images/agiogpt.png";
+    import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
+
+</script>
+
+
+<Navbar dir="ltr" >
+    <NavBrand href="/">
+      <img src={flogo} class="me-3 h-12" alt="Flowbite Logo" />
+      <span class="self-center whitespace-nowrap text-xl font-extrabold dark:text-white">AGIO GPT <span class="font-medium">Tunisia</span> </span>
+    </NavBrand>
+    <NavHamburger  />
+    <NavUl dir="rtl">
+      <NavLi href="/">Home</NavLi>
+      <NavLi href="/about">About</NavLi>
+      <NavLi href="/docs/components/navbar">Navbar</NavLi>
+      <NavLi href="/pricing">Pricing</NavLi>
+      <NavLi href="/contact">Contact</NavLi>
+    </NavUl>
+  </Navbar>
+
+
+<slot></slot>
