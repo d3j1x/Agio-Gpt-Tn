@@ -13,10 +13,10 @@
     </NavBrand>
     <NavHamburger  />
     <NavUl dir="rtl">
-      <NavLi href="/">Home</NavLi>
-      <NavLi href="/about">About</NavLi>
-      <NavLi href="/pricing">Pricing</NavLi>
-      <NavLi href="/contact">Contact</NavLi>
+      <NavLi href="/" class="font-bold">Home</NavLi>
+      <NavLi href="/about" class="font-bold">About</NavLi>
+      <NavLi href="/pricing" class="font-bold">Pricing</NavLi>
+      <NavLi href="/contact" class="font-bold">Contact</NavLi>
     </NavUl>
   </Navbar>
 
