@@ -6,7 +6,7 @@
 </script>
 
 
-<Navbar dir="ltr" >
+<Navbar dir="ltr" class="fixed">
     <NavBrand href="/">
       <img src={flogo} class="me-3 h-12" alt="Flowbite Logo" />
       <span class="self-center whitespace-nowrap text-xl font-extrabold dark:text-white">AGIO GPT <span class="font-medium">Tunisia</span> </span>

@@ -1,4 +1,17 @@
-<div dir="ltr" class="justify-center items-center content-center text-center m-2 text-lg font-serif">
+<script>
+    import { Spinner } from 'flowbite-svelte';
+</script>
+
+
+
+
+<div dir="ltr" class="justify-center items-center content-center text-center pt-20">
+    <Spinner color="purple" /> <span class="font-mono">Upgrade in progress . . .</span>
+</div>
+
+
+
+<div dir="ltr" class="justify-center items-center content-center text-center m-2 text-lg font-serif pt-5">
     <span class="justify-center items-center content-center text-center">
     <span class="font-semibold">Dear users:<br></span>
     In order to protect the rights and interests of customers,<br>
@@ -31,7 +44,7 @@
 
 <div class="justify-center items-center content-center text-center m-2 text-lg font-serif">
     <span class="justify-center items-center content-center text-center">
-    <span class="font-semibold">عزيزي المستخدمين:<br></span>
+    <span class="font-semibold">عزيزي المستخدم:<br></span>
     ومن أجل حماية حقوق ومصالح العملاء،<br>
     ستتم صيانة النظام الأساسي وتحديثه من وقت لآخر لتحسين إنتاجية إصدار GPT واستقرار النظام الأساسي وأمانه.<br>
     في الوقت الحالي، يتعذر على المستخدمين في بعض المناطق/البلدان استخدامه مؤقتًا.<br>
