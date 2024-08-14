@@ -1,17 +1,20 @@
 <script>
     import { Spinner } from 'flowbite-svelte';
+    import { Button } from 'flowbite-svelte';
+
+    import bannerlogo from "$lib/images/telegramchannel.jpg";
 </script>
 
 
 
 
 <div dir="ltr" class="justify-center items-center content-center text-center pt-20">
-    <Spinner color="purple" /> <span class="font-mono">Upgrade in progress . . .</span>
+    <Spinner color="purple" /> <span class="font-mono text-purple-700">&nbsp Upgrade in progress . . .</span>
 </div>
 
 
 
-<div dir="ltr" class="justify-center items-center content-center text-center m-2 text-lg font-serif pt-5">
+<div dir="ltr" class="justify-center items-center content-center  m-2 md:m-10 text-lg md:text-2xl font-serif pt-5">
     <span class="justify-center items-center content-center text-center">
     <span class="font-semibold">Dear users:<br></span>
     In order to protect the rights and interests of customers,<br>
@@ -27,7 +30,7 @@
 <br><br>
 
 
-<div dir="ltr" class="justify-center items-center content-center text-center m-2 text-lg font-serif">
+<div dir="ltr" class="justify-center items-center content-center m-2 md:m-10 text-lg md:text-2xl font-serif">
     <span class="justify-center items-center content-center text-center">
     <span class="font-semibold">Chers utilisateurs:<br></span>
     Afin de protéger les droits et les intérêts des clients,<br>
@@ -42,7 +45,7 @@
 
 <br><br>
 
-<div class="justify-center items-center content-center text-center m-2 text-lg font-serif">
+<div class="justify-center items-center content-center m-2 md:m-10 text-lg md:text-2xl font-serif">
     <span class="justify-center items-center content-center text-center">
     <span class="font-semibold">عزيزي المستخدم:<br></span>
     ومن أجل حماية حقوق ومصالح العملاء،<br>
@@ -54,3 +57,9 @@
     شكرا لتفهمك ودعمك.
     </span>
 </div>
+
+
+
+<img src={bannerlogo} class="shadow-2xl my-20 p-4 border-black flex justify-center items-center mx-auto max-h-dvh" alt="telegram channel" />
+
+<Button href="https://t.me/AGIO_GPT99" target="_blank" rel="noreferrer" color="blue" class="flex justify-center content-center items-center text-center mx-auto max-w-60 mb-20">Join Us Telegram</Button>
