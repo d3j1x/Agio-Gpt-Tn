@@ -3,18 +3,26 @@
     import { Button } from 'flowbite-svelte';
 
     import bannerlogo from "$lib/images/telegramchannel.jpg";
+
+
+    import { calculateDateDifference } from '$lib/utils/dateDifference.js';
+
+    let savedDate = '2024-08-13'; // Example saved date
+    let daysDifference = calculateDateDifference(savedDate);
 </script>
 
 
 
 
 <div dir="ltr" class="justify-center items-center content-center text-center pt-28 pb-10">
-    <Spinner color="purple" /> <span class="font-mono text-purple-700">&nbsp Upgrade in progress . . .</span>
+    <Spinner color="purple" /> <span style="font-weight: bolder;" class="font-mono text-purple-700">&nbsp Upgrade in progress . . .</span>
+    <br><br> <span class="font-mono mx-6">
+        "The process has been ongoing for {daysDifference} days and may take a total of 7 to 12 days."</span>
 </div>
 
 
 
-<div dir="ltr" class="justify-center items-center content-center  m-2 md:m-10 lg:mx-28 text-lg md:text-2xl font-serif pt-5">
+<div dir="ltr" class="justify-center items-center content-center  m-2 md:m-10 lg:mx-28 text-lg md:text-2xl font-serif pt-2">
     <span class="justify-center items-center content-center text-center leading-relaxed">
     <span class="font-semibold">Dear users:<br></span>
     In order to protect the rights and interests of customers,
