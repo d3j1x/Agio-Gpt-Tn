@@ -16,7 +16,7 @@
 
 <div dir="ltr" class="justify-center items-center content-center text-center pt-28 pb-10">
     <Spinner color="purple" /> <span style="font-weight: bolder;" class="font-mono text-purple-700">&nbsp Upgrade in progress . . .</span>
-    <br><br> <span class="font-mono mx-6">
+    <br><br> <span style="font-weight: bold;" class="font-mono text-center">
         "The process has been ongoing for {daysDifference} days and may take a total of 7 to 12 days."</span>
 </div>
 
