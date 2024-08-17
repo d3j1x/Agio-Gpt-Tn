@@ -9,7 +9,7 @@
 <Navbar dir="ltr" class="fixed shadow-lg bg-black">
     <NavBrand href="/">
       <img src={agiologo} class="me-3 h-12 invert-0" alt="AGIOGPT Logo" />
-      <span class="self-center whitespace-nowrap text-xl font-extrabold text-white">AGIO GPT</span>
+      <span class="self-center whitespace-nowrap text-2xl md:text-3xl font-extrabold text-white">AGIO GPT</span>
     </NavBrand>
     <NavHamburger menuClass="text-white hover:text-black"  />
     <NavUl dir="rtl" >
